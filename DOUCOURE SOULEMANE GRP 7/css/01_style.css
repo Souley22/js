@@ -1,0 +1,77 @@
+#menu-deroulant {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin: 0.5rem 0;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    box-shadow: 1px 7px 11px -6px rgba(0, 0, 0, 0.68);
+    background-color:  rgb(15, 51, 66);
+    color: white;
+
+}
+/*mettre une ombre autour de la section*/
+.title span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content-section {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.5s;
+    padding: 0 20px;
+    text-align: center;
+    background-color: rgb(15, 51, 66);
+    color: white;
+}
+
+
+#menu-deroulant.open .content-section {
+    height: auto;
+    visibility: visible;
+    padding: 30px 20px;
+}
+
+
+.img {
+    width: 2%;
+    margin-left: 1300px;
+
+}
+
+
+.login {
+    background-color: red;
+    border-radius: 15px;
+    
+}
+
+.signup {
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.burger {
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 490px;
+}
+
+.ign {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.step {
+    font-size: 17px;
+    font-weight: 500;
+}
